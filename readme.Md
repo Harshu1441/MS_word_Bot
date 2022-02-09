@@ -52,7 +52,7 @@ happy learning...
    This service is the building blocks of this project and without it, it's just a website.
 2. Azure QnA maker-
    This service is core as this is how a bot gets trained in the project.
-3. Microsoft SQL database-
+3. Microsoft SQL database/Cosmos Db-
    It recivies and stores the feedback of users.
 4. Azure app service for hosting.
 
