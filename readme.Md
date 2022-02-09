@@ -24,7 +24,7 @@ As the above information suggests how it could be used, the project is based on 
 6. flask
 7. azure QnA maker
 8. azure bot service
-9. azure microsoft SQL server
+9. azure microsoft SQL server/cosmos DB
 10. Azure app service/web
 
 -----------------------------------------------------------------------------
