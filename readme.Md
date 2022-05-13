@@ -4,7 +4,7 @@
 [About]--
 ---------------------------------------------
 
-The project MS word bot is to help people to adopt the excel software more easily as people don't like to spend time watching a video and reading the official guide with this bot they could just specify simple things like -
+The project MS word bot is to help people to adopt the ms-word software more easily as people don't like to spend time watching a video and reading the official guide with this bot they could just specify simple things like -
 -help
 -cmd screenshot
 -about ribbon
