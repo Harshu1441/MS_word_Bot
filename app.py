@@ -1,10 +1,7 @@
 from flask import Flask, render_template, request
-import pymssql
 
 
 
-conn = pymssql.connect("--database-url--", "username", "password", "database-name")
-cursor = conn.cursor(as_dict=True)
 
 
 #...
@@ -21,15 +18,8 @@ def home():
         fullname = request.form.get('fullname')
         msg = request.form.get('msg')
 
-        
-        cursor.execute("INSERT INTO --table name-- (ID, fullname, msg) VALUES(%s, %s, %s)", (ID , fullname , msg))
-        for row in cursor:
-            print("SELECT TOP (1000) * FROM tablename")
-
-        conn.commit()
-
     return render_template('index.html', message=message)
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True,host='0.0.0.0')
